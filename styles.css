@@ -261,6 +261,13 @@ h1 {
   width: 100%;
 }
 
+.phone-shot {
+  aspect-ratio: 9 / 19.5;
+  max-height: 560px;
+  object-fit: cover;
+  width: auto;
+}
+
 .app-icon {
   aspect-ratio: 1;
   border-radius: 22%;
