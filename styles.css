@@ -58,6 +58,26 @@ a:hover {
   text-decoration-color: currentColor;
 }
 
+.product-title-link {
+  text-decoration: none;
+}
+
+.product-title-link:hover {
+  text-decoration: underline;
+}
+
+.store-badge-link {
+  display: inline-flex;
+  margin-top: 18px;
+}
+
+.store-badge {
+  display: block;
+  height: auto;
+  max-width: 160px;
+  width: 100%;
+}
+
 .site-header {
   align-items: center;
   backdrop-filter: blur(18px);
